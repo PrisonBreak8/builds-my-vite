@@ -65,3 +65,16 @@ style.css
 @tailwind components;
 @tailwind utilities;
 ```
+### [.sass, .less, .stylus](https://vitejs.dev/guide/features.html#css)
+
+* install
+```
+# .scss and .sass
+npm add -D sass
+
+# .less
+npm add -D less
+
+# .styl and .stylus
+npm add -D stylus
+```

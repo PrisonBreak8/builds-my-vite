@@ -1,4 +1,5 @@
-import './src/assets/05.css'
+
+import './src/assets/app.module.scss'
 
 
 
