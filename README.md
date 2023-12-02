@@ -42,5 +42,26 @@ Then run `npm run dev` and visit [localhost:5173/__inspect/](http://localhost:51
 
 * install
 ```
-
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+tailwind.config.js
+```js
+// /** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+style.css
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 ```
